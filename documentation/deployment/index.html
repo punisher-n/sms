@@ -1,0 +1,333 @@
+
+
+<!DOCTYPE html>
+
+	<html lang="en-US">
+
+	
+<!-- Mirrored from dox.themejack.com/documentation/deployment/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Oct 2020 10:08:45 GMT -->
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+		
+			<title>Deployment | Dox</title>
+		
+		
+			<meta name="description" content="Dox is always ready to deploy! You can host your Dox site on private web hosting, GitHub Pages or GitLab Pages. Choose the most suitable solution and deploy!">
+		
+		
+		<link rel="icon" href="../../favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,400i,500,500i,700,700i">
+		<link rel="stylesheet" href="../../dox-theme/assets/css/style.css">
+	</head>
+	<body>
+		
+			<div class="c-offcanvas">
+				<div class="c-offcanvas__inner">
+					
+						<ul class="c-nav c-nav--stacked u-mx-auto">
+							
+								<li><a href="../../index.html">Homepage</a></li>
+							
+								<li><a href="../index.html">Documentation</a></li>
+							
+						</ul><!-- /.c-nav -->
+					
+					
+						
+							<a href="https://themeforest.net/item/dox-jekyll-theme-for-project-documentation/22662039" class="c-btn c-btn--md c-btn--gray u-text-md">
+								Buy Now
+								<div class="c-btn__icon">
+									<i class="o-icon o-icon--shopping-cart"></i>
+								</div>
+							</a>
+						
+					
+				</div><!-- /.c-offcanvas__inner -->
+			</div><!-- /.c-offcanvas -->
+		
+
+		
+			<header class="c-header">
+				<div class="o-container">
+					<div class="o-row">
+						<div class="o-col-12">
+							<div class="u-flex u-items-center">
+								
+									
+										<p class="c-logo u-mb-0 js-logo">
+											<a href="../../index.html" class="c-logo__link">Dox</a>
+										</p><!-- /.c-logo -->
+									
+								
+								
+									<div class="u-flex u-items-center u-ml-auto">
+										
+											<ul class="c-nav u-mb-0 u-hidden u-block@lg">
+												
+													
+													<li class=""><a href="../../index.html">Homepage</a></li>
+												
+													
+													<li class=""><a href="../index.html">Documentation</a></li>
+												
+											</ul><!-- /.c-nav -->
+										
+										
+											<div class="u-ml-5 u-hidden u-block@lg">
+												
+													<a href="https://themeforest.net/item/dox-jekyll-theme-for-project-documentation/22662039" class="c-btn c-btn--md c-btn--gray u-text-md" target="_blank">
+														Buy Now
+														<div class="c-btn__icon">
+															<i class="o-icon o-icon--shopping-cart"></i>
+														</div>
+													</a>
+												
+											</div>
+										
+									</div>
+								
+								<button class="c-hamburger-icon c-hamburger-icon--slider js-hamburger-icon js-offcanvas-toggle u-ml-auto u-hidden@lg" type="button">
+									<span class="c-hamburger-icon__box">
+										<span class="c-hamburger-icon__inner"></span>
+									</span><!-- /.c-hamburger-icon__box -->
+								</button><!-- /.c-hamburger-icon -->
+							</div>
+						</div><!-- /.o-col -->
+					</div><!-- /.o-row -->
+				</div><!-- /.o-container -->
+			</header><!-- /.c-header -->
+		
+
+
+
+
+
+
+
+	
+		<div class="c-hero u-bg-gray-30 u-pt-16 u-pb-10">
+	
+		<div class="o-container">
+			<div class="o-row">
+				<div class="o-col-8@lg o-col-7@xl">
+					
+						<h2 class="u-text-lg u-text-xl@sm">Deployment</h2>
+					
+					
+						<div class="u-h6">
+							<p>Dox is always ready to deploy! You can host your Dox site on private web hosting, GitHub Pages or GitLab Pages. Choose the most suitable solution and deploy!</p>
+						</div>
+					
+					
+					
+				</div><!-- /.o-col -->
+			</div><!-- /.o-row -->
+		</div><!-- /.o-container -->
+	</div>
+
+
+
+
+	<div class="u-pt-8 u-pb-5">
+		<div class="o-container">
+			<div class="o-row">
+				
+					<div class="o-col-8@lg o-col-7@xl">
+						<div class="c-post u-mb-3@lg js-post">
+							<h2 id="web-hosting-providers-ftp">Web hosting providers (FTP)</h2>
+<p>To upload a Jekyll site to a web host using FTP, simply run the <code class="highlighter-rouge">JEKYLL_ENV=production jekyll build</code> command and copy the generated <code class="highlighter-rouge">_site</code> folder to the root folder of your hosting account.</p>
+
+<h2 id="github-pages">GitHub Pages</h2>
+<div class="callout callout--info">
+    <p><strong>What are GitHub Pages?</strong> <a href="https://pages.github.com/">GitHub Pages</a> are public web pages for users, organisations, and repositories, that are freely hosted on GitHub’s <code>github.io</code> domain or on a custom domain name of your choice.</p>
+</div>
+
+<div class="callout callout--info">
+    <p><strong>Full GitHub Pages deployment guide.</strong> We recommend you to read full GitHub Pages deployment guide <a href="https://jekyllrb.com/docs/github-pages/" target="_blank">here</a>.</p>
+</div>
+
+<div class="callout callout--warning">
+    <p><strong>Set relative URLs properly!</strong> Take a look at Relative URLs part of <a href="../configuration/index.html">configuration</a> section before you deploy your site.</p>
+</div>
+
+<div class="callout callout--warning">
+    <p><strong>Build site with environment variable!</strong> Build your site with proper environment variable before you deploy. Your build command should look like this <code>JEKYLL_ENV=production jekyll build</code>.</p>
+</div>
+
+<h3 id="user-and-organisation-pages">User and Organisation Pages</h3>
+<p>User and organisation pages live in a special GitHub repository dedicated to only the GitHub Pages files. This repository must be named after the account name. For example, <a href="https://github.com/mojombo/mojombo.github.io" target="_blank">@mojombo’s user page repository</a> has the name <code class="highlighter-rouge">mojombo.github.io</code>.</p>
+
+<p>Content from the <code class="highlighter-rouge">master</code> branch of your repository will be used to build and publish the GitHub Pages site, so make sure your <code class="highlighter-rouge">_site</code> directory content is stored there.</p>
+
+<h3 id="project-pages">Project Pages</h3>
+<p>Unlike user and organisation pages, project pages are kept in the same repository as the project they are for, except that the website content is stored in a specially named <code class="highlighter-rouge">gh-pages</code> branch or in a <code class="highlighter-rouge">/docs</code> folder on the <code class="highlighter-rouge">master</code> branch.</p>
+
+<p>Content from the <code class="highlighter-rouge">gh-pages</code> branch or <code class="highlighter-rouge">/docs</code> folder on your <code class="highlighter-rouge">master</code> branch of your repository will be used to build and publish the GitHub Pages site, so make sure your <code class="highlighter-rouge">_site</code> directory content is stored there.</p>
+
+<p>Output will become available under a subpath of your user pages subdomain, such as <code class="highlighter-rouge">username.github.io/project</code> (unless a custom domain is specified).</p>
+
+<h2 id="gitlab-pages">GitLab Pages</h2>
+<div class="callout callout--info">
+    <p><strong>What are GitLab Pages?</strong> With <a href="https://about.gitlab.com/features/pages/" target="_blank">GitLab Pages</a> you can create static websites for your GitLab projects, groups, or user accounts. Connect as many customs domains as you like and bring your own TLS certificate to secure them.</p>
+</div>
+
+<div class="callout callout--info">
+    <p><strong>Full GitLab Pages deployment guide.</strong> We recommend you to read full GitLab Pages deployment guide <a href="https://docs.gitlab.com/ee/user/project/pages/" target="_blank">here</a>.</p>
+</div>
+
+<div class="callout callout--warning">
+    <p><strong>Set relative URLs properly!</strong> Take a look at Relative URLs part of <a href="../configuration/index.html">configuration</a> section before you deploy your site.</p>
+</div>
+
+<div class="callout callout--warning">
+    <p><strong>Build site with environment variable!</strong> Build your site with proper environment variable before you deploy. Your build command should look like this <code>JEKYLL_ENV=production jekyll build</code>.</p>
+</div>
+
+<h3 id="user-and-organisation-pages-1">User and Organisation Pages</h3>
+<p>User and organisation pages live in a special GitLab repository dedicated to only the GitLab Pages files. This repository must be named after the account name.</p>
+
+<p>For example, if you create a project called <code class="highlighter-rouge">john.gitlab.io</code> under your username, <code class="highlighter-rouge">john</code>, your project URL will be <code class="highlighter-rouge">https://gitlab.com/john/john.gitlab.io</code>. Once you enable GitLab Pages for your project, your website will be published under <code class="highlighter-rouge">https://john.gitlab.io</code>.</p>
+
+<p>Content from the <code class="highlighter-rouge">gl-pages</code> branch of your repository will be used to build and publish the GitLab Pages site, so make sure your <code class="highlighter-rouge">_site</code> directory content is stored there.</p>
+
+<h3 id="project-pages-1">Project Pages</h3>
+<p>Unlike user and organisation pages, project pages are kept in the same repository as the project they are for, except that the website content is stored in a specially named <code class="highlighter-rouge">gl-pages</code> branch.</p>
+
+<p>Content from the <code class="highlighter-rouge">gl-pages</code> branch of your repository will be used to build and publish the GitLab Pages site, so make sure your <code class="highlighter-rouge">_site</code> directory content is stored there.</p>
+
+<p>Output will become available under a subpath of your user pages subdomain, such as <code class="highlighter-rouge">username.gitlab.io/project</code> (unless a custom domain is specified).</p>
+
+							
+
+						</div><!-- /.c-post -->
+					</div><!-- /.o-col -->
+				
+				
+					<div class="o-col-3@lg o-offset-1@lg o-offset-2@xl">
+						<ul class="c-page-nav u-sticky u-pin-t-6 u-mt-4 u-mt-1@lg u-mb-1 u-mb-4@lg">
+							
+							
+								
+									<li class="is-active">
+										<a href="../getting-started/index.html">
+											<p class="c-page-nav__heading">Getting Started</p>
+										</a>
+									</li>
+								
+							
+								
+									<li class="is-active">
+										<a href="../configuration/index.html">
+											<p class="c-page-nav__heading">Configuration</p>
+										</a>
+									</li>
+								
+							
+								
+									<li class="is-active">
+										<a href="../manage-content/index.html">
+											<p class="c-page-nav__heading">Manage Content</p>
+										</a>
+									</li>
+								
+							
+								
+									<li class="is-active">
+										<a href="index.html">
+											<p class="c-page-nav__heading">Deployment</p>
+										</a>
+									</li>
+								
+							
+								
+									<li>
+										<a href="../theme-updates/index.html">
+											<p class="c-page-nav__heading">Theme Updates</p>
+										</a>
+									</li>
+								
+							
+						</ul><!-- /.c-page-nav -->
+					</div><!-- /.o-col -->
+				
+			</div><!-- /.o-row -->
+		</div><!-- /.o-container -->
+	</div>
+
+
+
+
+	<div class="u-bg-primary u-text-white u-pt-3 u-pt-4@sm u-pb-3 u-pb-4@sm">
+		<div class="o-container">
+			<div class="o-row">
+				<div class="o-col-12 u-text-center">
+					<div class="u-inline-block u-flex@sm">
+						
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<a href="../manage-content/index.html" class="c-arrow-link c-arrow-link--prev u-mr-auto">Manage Content</a>
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<a href="../theme-updates/index.html" class="c-arrow-link c-arrow-link--next u-ml-auto">Theme Updates</a>
+							
+						
+					</div>
+				</div><!-- /.o-col -->
+			</div><!-- /.o-row -->
+		</div><!-- /.o-container -->
+	</div>
+
+
+
+
+	
+
+		
+			<footer class="c-footer">
+				<div class="o-container">
+					<div class="o-row">
+						<div class="o-col-12 u-mt-6 u-mt-8@md u-mb-4 u-mb-6@md">
+							
+								<p class="c-logo u-mb-1">
+									Dox
+								</p><!-- /.c-logo -->
+							
+							
+								<p>Copyright &copy; 2018. - Dox <br>All rights reserved.</p>
+							
+						</div><!-- /.o-col -->
+					</div><!-- /.o-row -->
+				</div><!-- /.o-container -->
+			</footer><!-- /.c-footer -->
+		
+
+		<script type="text/javascript" src="../../dox-theme/assets/js/vendor/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="../../dox-theme/assets/js/scripts.min.js"></script>
+
+		
+
+	</body>
+
+<!-- Mirrored from dox.themejack.com/documentation/deployment/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Oct 2020 10:08:46 GMT -->
+</html>
+
+
